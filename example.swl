@@ -1,0 +1,21 @@
+begin
+    let a be 5
+    let b be 10
+    add 3 to b
+    add b to a
+    add a to b
+    div 91 to b
+    print b
+    print 3
+    cycle a==b && a==b || a==11
+	branch a<b || a>b
+	then
+		branch a>b
+		then
+			add b to a
+		end branch
+	else
+		add b to a
+	end branch	
+    end cycle
+end
